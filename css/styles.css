@@ -1,0 +1,30 @@
+.input-busqueda {
+    min-height: 60px;
+    border-radius: 15px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 2rem;
+    background-image: url('./../assets/search.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 50px) center;
+    background-size: 40px 40px;
+}
+
+.icono-clima {
+    max-width: 150px;
+}
+
+#mapid {
+    height: 180px;
+}
+
+.cards__container {
+    max-height: 800px;
+    background-color: #c0c0c0;
+}
+
+.cards__container .card-body {
+    background-color: #f2f2f2;
+    max-height: 180px;
+    overflow: auto;
+}
