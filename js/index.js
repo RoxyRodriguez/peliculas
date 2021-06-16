@@ -45,12 +45,12 @@ const mostrarMensaje = (total) => {
 
 formBusqueda.onsubmit = (e) => {
     e.preventDefault();
-
+    divpeli.innerHTML = '';
     getPeliculas(inputBusqueda.value).then((rpta) => {
 
         mostrarMensaje(rpta.results.length);
         if (rpta.results.length) {
-            divpeli.innerHTML = '';
+
             llenarPeliculas(rpta.results);
         } else {
             Swal.fire({
